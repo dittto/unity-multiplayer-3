@@ -1,9 +1,9 @@
-﻿// State/StateManager.cs
+﻿// GameState/StateManager.cs
 
 using UnityEngine;
 using UnityEngine.Networking;
 
-namespace State
+namespace GameState
 {
     public class StateManager : MonoBehaviour
     {

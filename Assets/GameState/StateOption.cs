@@ -1,6 +1,6 @@
-﻿// State/StateOption.cs
+﻿// GameState/StateOption.cs
 
-namespace State
+namespace GameState
 {
     public struct StateOption
     {

@@ -1,9 +1,9 @@
-﻿// State/State.cs
+﻿// GameState/State.cs
 
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace State
+namespace GameState
 {
     public struct SubscriberOptions
     {
@@ -82,7 +82,7 @@ namespace State
 
         public void Publish ()
         {
-            // Debug.Log("State: " + networkState + " | " + previousGameState + " > " + gameState);
+            Debug.Log("State: " + networkState + " | " + previousGameState + " > " + gameState);
 
             foreach (SubscriberOptions subscriberOption in subscribers) {
                 PublishIfMatches(subscriberOption);
