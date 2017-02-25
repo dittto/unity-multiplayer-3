@@ -82,7 +82,7 @@ namespace GameState
 
         public void Publish ()
         {
-            Debug.Log("State: " + networkState + " | " + previousGameState + " > " + gameState);
+            // Debug.Log("State: " + networkState + " | " + previousGameState + " > " + gameState);
 
             foreach (SubscriberOptions subscriberOption in subscribers) {
                 PublishIfMatches(subscriberOption);
